@@ -1,0 +1,9 @@
+name: primeiro_Workflow
+run-name: Primeiro workflow
+on: [push]
+jobs:
+    apresentar-mensagem-deu-bom:
+        runs-on: macos-latest
+        steps:
+            - name: Apresentar mensagem
+              run: echo "Deu bom"
